@@ -1,0 +1,87 @@
+/* Add your CSS styles here */
+
+.card {
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="email"] {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="number"]:focus,
+.form-group input[type="email"]:focus {
+    border: 1px solid #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin-top: 20px;
+    color: green;
+}
+
+.message a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}
+ .profile-heading {
+     margin-bottom: 20px;
+     color: #007bff;
+ }
+
+ .profile-details-container {
+     text-align: center;
+ }
+
+ .profile-detail {
+     margin: 5px 0;
+     font-size: 16px;
+     color: #333;
+ }
+ #logout-btn {
+     display: block;
+     margin: 0 auto;
+ }
+ .userprofile{
+    display: none;
+ }
